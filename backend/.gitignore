@@ -1,0 +1,38 @@
+# Dependencias locales (no subas node_modules, se instala con npm install)
+node_modules/
+
+# Archivos de entorno y configuración sensible
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs y archivos temporales
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de editor y sistema operativo
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archivos de build y compilación (si usas TypeScript o builds)
+dist/
+build/
+*.tgz
+
+# Archivos de pruebas y cobertura
+coverage/
+.nyc_output
+
+# Archivos de caché
+.npm
+.eslintcache
+.cache/
+
+# Ignorar archivos de paquetes
+package-lock.json  # O yarn.lock si usas Yarn; elige uno según tu gestor
